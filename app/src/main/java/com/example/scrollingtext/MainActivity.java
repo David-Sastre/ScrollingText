@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Add_Comment(View view) {
-        Button but = findViewById(R.id.new_coment);
+        Button but = findViewById(R.id.new_comment);
         EditText e = (EditText) findViewById(R.id.article_comment);
         TextView txt = (TextView) findViewById(R.id.article);
         but.setText("Send");
