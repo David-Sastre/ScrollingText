@@ -46,6 +46,21 @@
                 android:layout_margin="20dp"
                 android:text="@string/article_text" />
 
+            <EditText
+                android:id="@+id/article_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment"
+                android:enabled="true"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/new_coment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Add_Comment"
+                android:text="@string/comment"/>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
